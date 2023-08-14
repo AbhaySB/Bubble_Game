@@ -1,4 +1,4 @@
-let time = 60;
+let time = 30;
 let score = 0;
 let hintN;
 
