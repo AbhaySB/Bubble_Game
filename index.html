@@ -18,21 +18,39 @@
     <div id="main">
         <div class="panel">
             <div class="top">
+                <div class="p1">
+                    <h4 id="round1">Player 1 Score</h4>
+                    <div id="player1Score" class="box">00</div>
+                </div>
                 <div class="elem">
                     <h4>Hit</h4>
                     <div id="hitval" class="box">2</div>
                 </div>
                 <div class="elem">
                     <h4>Timer</h4>
-                    <div id="time" class="box">60</div>
+                    <div id="time" class="box">30</div>
                 </div>
-                <div class="elem">
+                <!-- <div class="elem">
                     <h4>Score</h4>
                     <div id="score" class="box">0</div>
+                </div> -->
+                <div class="p2">
+                    <h4 id="round2">Player 2 Score</h4>
+                    <div id="player2Score" class="box">00</div>
                 </div>
             </div>
-            <div class="bottom">
+            <div id="enterBox" class="player">
+            <div class="playerBox">
+                    <input id="player1" class="setPlayer" type="text" placeholder="Player 1">
+                    <input id="player2" class="setPlayer" type="text" placeholder="Player 2">
+                    <button id="startGame" class="savePlayer">Start Game</button>
+                </div>
             </div>
+            <div class="bottom"></div>
+            <div>
+                <h1 id="round2declaration">ROUND 2</h1>
+            </div>
+
         </div>
     </div>
 
